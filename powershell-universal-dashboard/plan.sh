@@ -9,6 +9,10 @@ $pkg_description=".NET Core is a blazing fast, lightweight and modular platform
 $pkg_maintainer="The Habitat Maintainers <humans@habitat.sh>"
 $pkg_source="https://github.com/ironmansoftware/universal-dashboard/archive/release.$pkg_version.zip"
 $pkg_shasum="4a83be23efaed263f6a1fa07bd144c0a590e08d0e40d464550e0c3ec87e4f77d"
+$pkg_deps=@(
+    "core/node"
+    "core/dotnet-core-sdk"
+)
 $pkg_bin_dirs=@("bin")
 
 function Invoke-Build {
