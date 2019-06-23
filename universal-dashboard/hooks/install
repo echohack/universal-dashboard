@@ -1,0 +1,2 @@
+Install-Module UniversalDashboard.Community
+Install-Module 'ud-bginfo'
