@@ -1,5 +1,0 @@
-[powershell-universal-dashboard]
-plan_path = "powershell-universal-dashboard"
-build_targets = [
-  "x86_64-windows"
-]
