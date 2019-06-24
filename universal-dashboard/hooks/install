@@ -1,2 +1,1 @@
-Install-Module UniversalDashboard.Community
-Install-Module 'ud-bginfo'
+Install-Module "UniversalDashboard.Community" -Force -AcceptLicense
